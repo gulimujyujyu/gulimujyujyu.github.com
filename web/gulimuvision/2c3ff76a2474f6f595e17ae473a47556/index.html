@@ -1,0 +1,481 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <link rel="SHORTCUT ICON" href="http://gulimujyujyu.me/favicon.ico">
+        <title>Gulimu Vision -- Issue 1</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="Fullscreen Gallery with Thumbnail Flip using jQuery" />
+        <meta name="keywords" content="jquery, background, full page, fullscreen, image, thumbnail, flip, gallery, slider, slide in, keyboard, key navigation, mousewheel, google font api"/>
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' />
+        <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css' />
+		<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-17034168-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+    </head>
+    <body>
+        <div id="tf_loading" class="tf_loading">
+        </div>
+        <div id="tf_bg" class="tf_bg">
+            <img src="images/1.jpg" alt="Image 1" longdesc="images/thumbs/1.jpg" />
+            <img src="images/2.png" alt="Image 1" longdesc="images/thumbs/2.png" />
+            <img src="images/3.png" alt="Image 1" longdesc="images/thumbs/3.png" />
+            <img src="images/4.png" alt="Image 1" longdesc="images/thumbs/4.png" />
+            <img src="images/5.png" alt="Image 1" longdesc="images/thumbs/5.png" />
+            <img src="images/6.png" alt="Image 1" longdesc="images/thumbs/6.png" />
+            <img src="images/7.png" alt="Image 1" longdesc="images/thumbs/7.png" />
+            <img src="images/8.png" alt="Image 1" longdesc="images/thumbs/8.png" />
+            <img src="images/9.png" alt="Image 1" longdesc="images/thumbs/9.png" />
+            <img src="images/10.png" alt="Image 1" longdesc="images/thumbs/10.png" />
+            <img src="images/11.png" alt="Image 1" longdesc="images/thumbs/11.png" />
+            <img src="images/12.png" alt="Image 1" longdesc="images/thumbs/12.png" />
+            <img src="images/13.png" alt="Image 1" longdesc="images/thumbs/13.png" />
+            <img src="images/14.png" alt="Image 1" longdesc="images/thumbs/14.png" />
+            <img src="images/15.png" alt="Image 1" longdesc="images/thumbs/15.png" />
+            <img src="images/16.png" alt="Image 1" longdesc="images/thumbs/16.png" />
+            <img src="images/17.png" alt="Image 1" longdesc="images/thumbs/17.png" />
+            <img src="images/18.png" alt="Image 1" longdesc="images/thumbs/18.png" />
+            <img src="images/19.png" alt="Image 1" longdesc="images/thumbs/19.png" />
+            <img src="images/20.png" alt="Image 1" longdesc="images/thumbs/20.png" />
+            <img src="images/21.png" alt="Image 1" longdesc="images/thumbs/21.png" />
+            <img src="images/22.png" alt="Image 1" longdesc="images/thumbs/22.png" />
+            <img src="images/23.png" alt="Image 1" longdesc="images/thumbs/23.png" />
+            <img src="images/24.png" alt="Image 1" longdesc="images/thumbs/24.png" />
+            <img src="images/25.png" alt="Image 1" longdesc="images/thumbs/25.png" />
+            <img src="images/end.jpg" alt="Image 2" longdesc="images/thumbs/end.jpg"/>
+            <div class="tf_pattern">
+            </div>
+        </div>
+        <div id="tf_content_wrapper" class="tf_content_wrapper">
+            <div class="tf_content" id="content1" style="display:block;">
+                <h2>GulimuVision Issue 1</h2>
+                <p>
+                    GulimuVision is an online journal developed by Gulimujyujyu.me. Its main topic is data visualization. This month I will show a brief history of data visualization, a famous off-the-shelf API provided by <a href="http://google.com">Google</a>, and my first demo on this topic.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Part I: Milestones of DataVis</h2>
+                <p>
+                   In this part, a brief history of data visualization will be shown. Dated back to 900s B.C, data visualiziation made it eaiser for human to understand the world. Most of the content is adapted from <a href="http://datavis.ca">datavis.ca</a>.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Visualization: Milestones</h2>
+                <p>
+                   Before 1700s, a typical form of visualization is map. Through the representation of map from 900s B.C to 16th century, we may find the improvement of accuracy due to the development in cartography. People can map geo data in two coordinates: latitude and longitude.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Visualization: Milestones</h2>
+                <p>
+                   From 17th century to 19th century, many new forms of graphics emerges, such as drawing of function, annotated timeline, pie chart, line chart, topological map, geologicakl map, aggregated bar chart, etc.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Visualization: Milestones</h2>
+                <p>
+                   Most of them laid the foundation of methods in today's data visualization techniques. Meanwhile, scientific visualization became encouraging in several literatures.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Visualization: Milestones</h2>
+                <p>
+                   Minard's map, showing Napoleaon's march on Moscow, successfully linked time and data on a static graphic. His work even appealed the destruction of France during the war. Florence's coxcomb chart was used in the campaign.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Visualization: Milestones</h2>
+                <p>
+                   After 1900s, graphics were presented in a more informative way, e.g. Sewall Wright's arrow diagram. Isotype was also established in the early 1900s. The philosophy of simplicity and clearity became influential in design community.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Visualization: Milestones</h2>
+                <p>
+                   In the late 20th century, the great improvement of computation power enabled people to implement large-scale data visualization in medical and science domain. After millennium, the popularity of web brings us many libraries to visualize our own data at hand.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Part II: Google VisAPI</h2>
+                <p>
+                   As one of the most successful IT company, google brings us many impressive products. Its visualization API enables us to put graphcis on the web page and interact with them in an elegent way.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Google Visualization API</h2>
+                <p>
+                   Google Visualization APIs can be classified in two groups: static images and interactive charts. There are two styles of implementation: javascript and google gadgets. One can visualize the data in simply 5 steps: add a &lt div &gt, load libs, add data, create an instance and draw it.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Google Visualization API</h2>
+                <p>
+                   How to add your data into the web page? Use google datatable! It can be visualized as a table, whose columns represent attributes and rows represent data entries. The type of column should be declared in advance.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Google VisAPI: Case Study</h2>
+                <p>
+                   Annotated Timeline usually visualizes data with time stamp. The time intervals are always days, which is easily aggregated into months. The best known application of annotated timeline is google finance.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Google VisAPI: Case Study</h2>
+                <p>
+                   Bar chart and comlums chart are used to represent the comparison of data. In order to give a strong visual impact of change of numbers, bar chart is often the first choice.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Google VisAPI: Case Study</h2>
+                <p>
+                   Area chart is similar to line chart, which is always used to illustrate 2 dimensional data. But area chart is better when the area of the plot is meaningful, for example the income of a company over years can be summed up as total income within these years.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Google VisAPI: Case Study</h2>
+                <p>
+                   GeoMap is perhaps one of the most gelivable api. Thanks to google's success in google map, we can really benefit so much from its geo visualization apis, such as GeoMap, Intensity Map.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Google VisAPI: Case Study</h2>
+                <p>
+                   Organizational chart is a perfect choice to visualize a small-sized tree, such as staffs in an organization or site map.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Google VisAPI: Case Study</h2>
+                <p>
+                   Parallel coordinates are used to explore high dimensional data. Now it is an experimental api, so the usage is not consistent with the former apis.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Google VisAPI: Case Study</h2>
+                <p>
+                   Tree map is also an expremental api. It is widely used in visualization of hierarchical data, which can be aggregated vertically and explored layer by layer.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Google VisAPI: Case Study</h2>
+                <p>
+                   In addition, Google Map can also be combined into visualization apis, and different apis can be integrated as long as they operate different divs. For an example, you may visit my first <a href="http://gulimujyujyu.me/blog/2010/10/21/gulimulife-calendar-first-trial-on-gae-and-google-data-apis/">blog post</a>.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Visualization this Month</h2>
+                <p>
+                   In March I visualized a public spreadsheet in google fusion table: <i>the Quality of Life in 2010</i>. You may click <a href="http://gulimujyujyu.me/web/toyou/2c3ff76a2474f6f595e17ae473a47556/vismon.html">here</a> to see the results.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>VisThisMonth: Tools and Data</h2>
+                <p>
+                   Recently google has released a product called open data explorer. I found that it is related to another product which is still in lab called fusion table. So I picked up an interesting public table, <i>the Quality of Life in 2010</i>. I use <i>d3.js</i> to implement it.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Interesting Point</h2>
+                <p>
+                   China really makes difference in term of Freedom. Personally, I disagree with its result. Although we have sufferred great from Liu Xiaobo, we cannot set it zero. It is not fair.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Interesting Point</h2>
+                <p>
+                   As for cost of living, why the value of Sweden is zero? Is it free for everything there? WOW.. It seems I definitely chose hard mode when I was about to be born.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>Interesting Point</h2>
+                <p>
+                   Most of countries in Africa get realy low scores here. In my opinion, it is due to the lack of culture instead of leisure. As for Middle East countries, leisure should be the main reason for low scores.
+                </p>
+            </div>
+            <div class="tf_content" id="content2">
+                <h2>VisThisMonth: The End</h2>
+                <p>
+                   You are encouraged to visit my <a href="http://gulimujyujyu.me/web/toyou/2c3ff76a2474f6f595e17ae473a47556/vismon.html">page</a> for more details.
+                </p>
+            </div>
+        </div>
+        <div id="tf_thumbs" class="tf_thumbs">
+            <span id="tf_zoom" class="tf_fullscreen"></span>
+            <img src="images/thumbs/1.jpg" alt="Thumb1"/>
+        </div>
+        <div id="tf_next" class="tf_next">
+        </div>
+        <div id="tf_prev" class="tf_prev">
+        </div>
+	<div id="backbutton">
+            <span><a href="http://gulimujyujyu.me/web">Back to Gulimujyujyu's Web</a></span>
+        </div>
+        <div class="description">
+            <span>Use keys &uarr; and &darr; or the wheel of the mouse to navigate. <br>Better viewed in widescreen display.</span>
+        </div>
+        <!-- The JavaScript -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js">
+        </script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js">
+        </script>
+        <script type="text/javascript" src="js/jquery.flip.js">
+        </script>
+        <script type="text/javascript" src="js/jquery-mousewheel-3.0.4/jquery.mousewheel.min.js">
+        </script>
+        <script type="text/javascript">
+            /*
+             the images preload plugin
+             */
+            (function($) {
+                $.fn.preload = function(options) {
+                    var opts 	= $.extend({}, $.fn.preload.defaults, options);
+                    o			= $.meta ? $.extend({}, opts, this.data()) : opts;
+                    var c		= this.length,
+                    l		= 0;
+                    return this.each( function() {
+                        var $i	= $(this);
+                        $('<img/>').load( function(i) {
+                            ++l;
+                            if(l == c)
+                                o.onComplete();
+                        }).attr('src',$i.attr('src'));
+                    });
+                };
+                $.fn.preload.defaults = {
+                    onComplete	: function() {
+                        return false;
+                    }
+                };
+            })(jQuery);
+        </script>
+        <script type="text/javascript">
+            $( function() {
+                var $tf_bg				= $('#tf_bg'),
+                $tf_bg_images		= $tf_bg.find('img'),
+                $tf_bg_img			= $tf_bg_images.eq(0),
+                $tf_thumbs			= $('#tf_thumbs'),
+                total				= $tf_bg_images.length,
+                current				= 0,
+                $tf_content_wrapper	= $('#tf_content_wrapper'),
+                $tf_next			= $('#tf_next'),
+                $tf_prev			= $('#tf_prev'),
+                $tf_loading			= $('#tf_loading');
+
+                //preload the images
+                $tf_bg_images.preload({
+                    onComplete	: function() {
+                        $tf_loading.hide();
+                        init();
+                    }
+                });
+
+                //shows the first image and initializes events
+                function init() {
+                    //set the returned values and show the image
+                    resize($tf_bg_img);
+                    $tf_bg_img.show();
+
+                    //resizing the window resizes the $tf_bg_img
+                    $(window).bind('resize', function() {
+                        resize($tf_bg_img);
+                    });
+                    //expand and fit the image to the screen
+                    $('#tf_zoom').live('click', function() {
+                        if($tf_bg_img.is(':animated'))
+                            return false;
+
+                        var $this	= $(this);
+                        if($this.hasClass('tf_zoom')) {
+                            resize($tf_bg_img);
+			    $tf_bg_img.fadeIn();
+                            $this.addClass('tf_fullscreen')
+                            .removeClass('tf_zoom');
+                        } else {
+                            var dim	= getImageDim($tf_bg_img);
+                            $tf_bg_img.animate({
+                                width	: dim.width,
+                                height	: dim.height,
+                                top		: dim.top,
+                                left	: dim.left
+                            },350);
+                            $this.addClass('tf_zoom')
+                            .removeClass('tf_fullscreen');
+                        }
+                    }
+                    );
+
+                    //click the arrow down, scrolls down
+                    $tf_next.bind('click', function() {
+                        if($tf_bg_img.is(':animated'))
+                            return false;
+                        scroll('tb');
+                    });
+                    //click the arrow up, scrolls up
+                    $tf_prev.bind('click', function() {
+                        if($tf_bg_img.is(':animated'))
+                            return false;
+                        scroll('bt');
+                    });
+                    //mousewheel events - down / up button trigger the scroll down / up
+                    $(document).mousewheel( function(e, delta) {
+                        if($tf_bg_img.is(':animated'))
+                            return false;
+
+                        if(delta > 0)
+                            scroll('bt');
+                        else
+                            scroll('tb');
+                        return false;
+                    });
+                    //key events - down / up button trigger the scroll down / up
+                    $(document).keydown( function(e) {
+                        if($tf_bg_img.is(':animated'))
+                            return false;
+
+                        switch(e.which) {
+                            case 38:
+                                scroll('bt');
+                                break;
+
+                            case 40:
+                                scroll('tb');
+                                break;
+                        }
+                    });
+                }
+
+                //show next / prev image
+                function scroll(dir) {
+                    //if dir is "tb" (top -> bottom) increment current,
+                    //else if "bt" decrement it
+                    current	= (dir == 'tb')?current + 1:current - 1;
+
+                    //we want a circular slideshow,
+                    //so we need to check the limits of current
+                    if(current == total)
+                        current = 0;
+                    else if(current < 0)
+                        current = total - 1;
+
+                    //flip the thumb
+                    $tf_thumbs.flip({
+                        direction	: dir,
+                        speed		: 400,
+                        onBefore	: function() {
+                            //the new thumb is set here
+                            var content	= '<span id="tf_zoom" class="tf_fullscreen"></span>';
+                            content		+='<img src="' + $tf_bg_images.eq(current).attr('longdesc') + '" alt="Thumb' + (current+1) + '"/>';
+                            $tf_thumbs.html(content);
+                        }
+                    });
+
+                    //we get the next image
+                    var $tf_bg_img_next	= $tf_bg_images.eq(current),
+                    //its dimentions
+                    dim				= getImageDim($tf_bg_img_next),
+                    //the top should be one that makes the image out of the viewport
+                    //the image should be positioned up or down depending on the direction
+                    top	= (dir == 'tb')?$(window).height() + 'px':-parseFloat(dim.height,10) + 'px';
+
+                    //set the returned values and show the next image
+                    resize($tf_bg_img_next);
+                    $tf_bg_img_next.fadeIn();
+
+                    //now slide it to the viewport
+                    //$tf_bg_img_next.stop().animate({
+                    //    top 	: dim.top
+                    //},1000);
+
+                    //we want the old image to slide in the same direction, out of the viewport
+                    var slideTo	= (dir == 'tb')?-$tf_bg_img.height() + 'px':$(window).height() + 'px';
+                    $tf_bg_img.stop().animate({
+                        top 	: slideTo
+                    },1000, function() {
+                        //hide it
+                        $(this).hide();
+                        //the $tf_bg_img is now the shown image
+                        $tf_bg_img	= $tf_bg_img_next;
+                        //show the description for the new image
+                        $tf_content_wrapper.children()
+                        .eq(current)
+                        .fadeIn();
+                    });
+                    //hide the current description
+                    $tf_content_wrapper.children(':visible')
+                    .hide()
+
+                }
+
+                //animate the image to fit in the viewport
+                function resize($img) {
+                    var w_w	= $(window).width(),
+                    w_h	= $(window).height(),
+                    i_w	= $img.width(),
+                    i_h	= $img.height(),
+                    r_i	= i_h / i_w,
+                    new_w,new_h;
+
+                    if(i_w > i_h) {
+                        new_w	= w_w;
+                        new_h	= w_w * r_i;
+
+                        if(new_h > w_h) {
+                            new_h	= w_h;
+                            new_w	= w_h / r_i;
+                        }
+                    } else {
+                        new_h	= w_w * r_i;
+                        new_w	= w_w;
+                    }
+
+                    $img.animate({
+                        width	: new_w + 'px',
+                        height	: new_h + 'px',
+                        top		: '0px',
+                        left	: '0px'
+                    },350);
+                }
+
+                //get dimentions of the image,
+                //in order to make it full size and centered
+
+                function getImageDim($img) {
+                    var w_w	= $(window).width(),
+                    w_h	= $(window).height(),
+                    r_w	= w_h / w_w,
+                    i_w	= $img.width(),
+                    i_h	= $img.height(),
+                    r_i	= i_h / i_w,
+                    new_w,new_h,
+                    new_left,new_top;
+
+                    if(r_w > r_i) {
+                        new_h	= w_h;
+                        new_w	= w_h / r_i;
+                    } else {
+                        new_h	= w_w * r_i;
+                        new_w	= w_w;
+                    }
+
+                    return {
+                        width	: new_w + 'px',
+                        height	: new_h + 'px',
+                        left	: (w_w - new_w) / 2 + 'px',
+                        top		: (w_h - new_h) / 2 + 'px'
+                    };
+                }
+
+            });
+        </script>
+    </body>
+</html>

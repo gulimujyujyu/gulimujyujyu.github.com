@@ -1,0 +1,239 @@
+﻿/*
+ * COLOR
+ */
+/*
+#FFFFA6
+#BDF271
+#29D9C2
+#01A2A6
+#2F2933
+#3B3340
+#F7E7FF
+*/
+html{
+  background:#2F2933;
+}
+
+body{
+	background: #F4F4F4 url('bg_grid.png') repeat 0% 0%;
+	font-family:helvetica, arial, sans-serif;
+}
+
+/*Header*/
+#we_header{
+	height: 46px;
+	
+	background:#2F2933 url('footer_stripe.gif') repeat 0% 0%;
+	/*background-color:#2F2933;
+	background-image:url('nav_bg.jpg');*/
+	width:100%;
+	position:fixed;
+	z-index: 900;
+}
+#we_header_shadow{
+	position: relative;
+	margin-top:-11px;
+	height:44px;
+	background: transparent url('header_top_shadow.png') repeat-x 0% 0%;
+}
+/*
+#logo { 
+    top:20px; 
+    left:100px;
+    position:absolute;
+    z-index:1000; 
+    float:left;
+  width:400px;
+  height:90px;
+  text-indent:9999px;
+}
+#logo li a{display:block;background:url('signature_logo.png') no-repeat; width:400px; height: 90px;}
+*/
+ul#we_he_nav {
+	margin-left: auto;
+	margin-right: auto;
+}
+ul#we_he_nav li{
+	float:left;
+	font-size:large;
+	text-align:center;
+	font-family: 'Reenie Beanie', arial, serif;
+}
+ul#we_he_nav li a{
+	padding: 0px 25px 0px 25px;
+	text-decoration:none;
+	font-size:24px;
+	line-height:42px;
+	color:#FFFFA6;
+}
+ul#we_he_nav li a:hover{
+	color:#55AA56;
+	/*color:#2F2933;*/
+}
+
+/*Body*/
+#we_content{
+  width: 960px;
+  min-height: 600px;
+  margin-left:auto;
+  margin-right:auto;
+  position: relative;
+}
+
+#we_content a{
+  color: #55AA56;
+}
+
+#we_content a:hover{
+  color: #3B3340;
+}
+
+#we_top{
+  height:60px;
+  width:100%;
+}
+#we_left{
+  width: 720px;
+  float: left;
+}
+#we_right{
+  width: 240px;
+  bottom: 0px;
+  right:0px;
+  position:absolute;
+}
+#we_right img{
+  z-index: 0;
+}
+.box{
+  border-top: 4px solid #3B3340;
+  padding: 10px;
+  margin: 10px;
+  float:left;
+  background: #FFF;
+  -webkit-box-shadow:1px 1px 3px rgba(0,0,0,0.2);
+  -moz-box-shadow:1px 1px 3px rgba(0,0,0,0.2);
+  box-shadow:1px 1px 3px rgba(0,0,0,0.2);
+  overflow:hidden;
+}
+.box:hover{
+    box-shadow:0px 0px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow:0px 0px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow:0px 0px 3px rgba(0,0,0,0.5);
+}
+.box_title{
+  font-size:20px;
+  font-weight: bold;
+  line-height: 1.2em;
+}
+.box_subtitle{
+  font-size:10px;
+  font-weight: bold;
+  line-height: 1.2em;
+  margin-bottom: 0.6em;
+}
+.box_abstract{
+  font-family: 'Reenie Beanie', arial, serif;
+  font-size:20px;
+  line-height: 16px;
+  margin-bottom: 0.6em;
+}
+.box p{
+  font-size:15px;
+  line-height: 1.2em;
+  margin-bottom: 0.6em;
+}
+.box_thumbnail{
+  width: 200px;
+}
+.box_hover{
+  background-color:#F7E7FF;
+}
+.box_unhover{
+  background-color:#FFF;
+}
+#we_ri_quote{
+  font-family:'Reenie Beanie', arial, serif;
+  font-size:24px;
+  font-weight:bold;
+}
+.col220 {
+  width:200px;
+}
+.col460 {
+  width: 440px;
+}
+.col700 {
+  width: 680px;
+}
+/*Footer*/
+#we_footer{
+	background: black url('footer_stripe.gif') repeat 0% 0%;
+	/*background-color:#3B3340;*/
+}
+#we_fo_separator{
+	background-color:#2F2933;
+	height: 8px;
+}
+#we_fo_links{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#we_fo_li_col{
+	color:#FFFFA6;
+	text-shadow: black 1px 1px 1px;
+	float:left;
+}
+#we_fo_li_col h2{
+	font-family: 'Reenie Beanie', arial, serif;
+	font-size: 25px;
+}
+#we_fo_li_co_list ul{
+	padding-left:20px;
+	font-size: 13px;
+}
+#we_fo_li_co_list ul li{
+	list-style:circle;
+}
+#we_fo_li_co_list ul li a{
+	text-decoration:none;
+	color:#76667F;
+}
+#we_fo_li_co_list ul li a:hover{
+	color:white;
+	text-shadow: white 0px 0px 1px;
+}
+#we_fo_copyright{
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	/*background-color:#F7E7FF;*/
+	text-align:center;
+	color:#FFFFA6;
+	text-shadow: black 1px 1px 1px;
+	font-weight:bold;
+	font-size:13px;
+}
+#we_fo_co_separator{
+	width:960px;
+	height:1px;
+	background-color:#76667F;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*Utils*/
+.shadow {
+	-moz-box-shadow: 3px 3px #000;
+	-webkit-box-shadow: 3px 3px #000;
+	box-shadow: 3px 3px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+.rounded_corners {
+     -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
