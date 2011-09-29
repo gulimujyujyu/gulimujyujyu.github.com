@@ -1,0 +1,38 @@
+#we_aboutme {
+  font-family: 'Reenie Beanie', arial, serif;
+  padding-top: 64px; 
+}
+
+#we_aboutme h1{
+  color:#06566F;
+  font-size:40px;
+  font-weight:bold;
+  padding-top:4px;
+}
+
+#we_aboutme h2{
+  color:#06566F;
+  font-size:30px;
+  padding-top:4px;
+  padding-left: 10px;
+}
+
+#we_aboutme h3{
+  font-size:30px;
+  padding-top:4px;
+}
+
+#we_aboutme p{
+  font-size: 30px;
+  padding-top:4px;
+}
+
+#we_aboutme a{
+  color: #76667f;
+  padding-top:4px;
+}
+
+#we_aboutme a:hover{
+  text-shadow: 0px 0px 1px #000;
+  font-weight:bold;
+}

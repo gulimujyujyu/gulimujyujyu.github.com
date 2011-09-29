@@ -1,0 +1,295 @@
+<!--
+NOTE: data presented in this map is completely fictional.
+It was generated randomly for feature presentation purposes.
+Do not use it for research or any other purposes for that matter.
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<timeline swf_file="./ammap/ammap.swf" 
+  settings_file="./ammap/d1_settings.xml"
+  slider_x="60" 
+  slider_y="!35"
+  slider_width="400"
+  font="Arial"  
+  text_color="#000000"
+  text_size="11"
+  max_date_count="12"
+  date_text_color="#FFFFFF"
+  date_x="80%"
+  date_y="72%"
+  date_text_size="70"
+  delay="1"
+	loop="true"
+	autoplay="false"
+  control_color="#444444">
+<data_set date="1954">
+  <map map_file="maps/china.swf" zoom="86.6071%" zoom_x="7.74%" zoom_y="10.62%">
+    <areas>
+     <area value="2768149" mc_name="CN_BJ" title="Beijing"></area>
+     <area value="2693831" mc_name="CN_TJ" title="Tianjin"></area>
+     <area value="6204417" mc_name="CN_SH" title="Shanghai"></area>
+     <area value="41145466" mc_name="CN_HB" title="Hebei"></area>
+     <area value="14314485" mc_name="CN_SX" title="Shanxi"></area>
+     <area value="6100104" mc_name="CN_NM" title="Nei Mongolia"></area>
+     <area value="18545147" mc_name="CN_LN" title="Liaoning"></area>
+     <area value="11290073" mc_name="CN_JL" title="Jilin"></area>
+     <area value="11897309" mc_name="CN_HL" title="Heilongjiang"></area>
+     <area value="15881281" mc_name="CN_SA" title="Shaanxi"></area>
+     <area value="12928102" mc_name="CN_GS" title="Gansu"></area>
+     <area value="1676534" mc_name="CN_QH" title="Qinghai"></area>
+     <area value="4873608" mc_name="CN_XJ" title="Xinjiang"></area>
+     <area value="48876548" mc_name="CN_SD" title="Shandong"></area>
+     <area value="41252192" mc_name="CN_JS" title="Jiangsu"></area>
+     <area value="30343637" mc_name="CN_AH" title="Anhui"></area>
+     <area value="22865747" mc_name="CN_ZJ" title="Zhejiang"></area>
+     <area value="13142721" mc_name="CN_FJ" title="Fujian"></area>
+     <area value="7591298" mc_name="TW" title="Taiwan"></area>
+     <area value="44214594" mc_name="CN_HE" title="Henan"></area>
+     <area value="27789693" mc_name="CN_HU" title="Hubei"></area>
+     <area value="33226954" mc_name="CN_HN" title="Hunan"></area>
+     <area value="16772865" mc_name="CN_JX" title="JiangXi"></area>
+     <area value="34770059" mc_name="CN_GD" title="Guangdong"></area>
+     <area value="19560822" mc_name="CN_GX" title="Guangxi"></area>
+     <area value="65685063" mc_name="CN_SC" title="Sichuan"></area>
+     <area value="15037310" mc_name="CN_GZ" title="Guizhou"></area>
+     <area value="17472737" mc_name="CN_YN" title="Yunnan"></area>
+     <area value="1273969" mc_name="CN_XZ" title="Tibet"></area>
+     <area value="0" mc_name="HK" title="Hongkong"></area>
+     <area value="0" mc_name="MO" title="Macau"></area>
+     <area value="34770059" mc_name="CN_HA" title="Hainan"></area>
+     <area value="15881281" mc_name="CN_NX" title="Ningxia"></area>
+     <area value="65685063" mc_name="CN_CQ" title="Chongqing"></area>
+   </areas>
+      <labels>
+        <label x="40%" y="5%" text_size="15" color="#666666" remain="false">
+          <text>POPULATION BY PROVINCE: 1954</text>
+	</label>
+      </labels>
+  </map>
+</data_set>
+<data_set date="1964">
+  <map map_file="maps/china.swf" zoom="86.6071%" zoom_x="7.74%" zoom_y="10.62%">
+    <areas>
+     <area value="7568495" mc_name="CN_BJ" title="Beijing"></area>
+     <area value="45687781" mc_name="CN_TJ" title="Tianjin"></area>
+     <area value="10816458" mc_name="CN_SH" title="Shanghai"></area>
+     <area value="45687781" mc_name="CN_HB" title="Hebei"></area>
+     <area value="18015067" mc_name="CN_SX" title="Shanxi"></area>
+     <area value="12348638" mc_name="CN_NM" title="Nei Mongolia"></area>
+     <area value="26946200" mc_name="CN_LN" title="Liaoning"></area>
+     <area value="15668663" mc_name="CN_JL" title="Jilin"></area>
+     <area value="20118271" mc_name="CN_HL" title="Heilongjiang"></area>
+     <area value="20766915" mc_name="CN_SA" title="Shaanxi"></area>
+     <area value="12630569" mc_name="CN_GS" title="Gansu"></area>
+     <area value="2145604" mc_name="CN_QH" title="Qinghai"></area>
+     <area value="7270067" mc_name="CN_XJ" title="Xinjiang"></area>
+     <area value="55519038" mc_name="CN_SD" title="Shandong"></area>
+     <area value="44504608" mc_name="CN_JS" title="Jiangsu"></area>
+     <area value="31241657" mc_name="CN_AH" title="Anhui"></area>
+     <area value="28318573" mc_name="CN_ZJ" title="Zhejiang"></area>
+     <area value="16757223" mc_name="CN_FJ" title="Fujian"></area>
+     <area value="28488510" mc_name="TW" title="Taiwan"></area>
+     <area value="50325511" mc_name="CN_HE" title="Henan"></area>
+     <area value="33709344" mc_name="CN_HU" title="Hubei"></area>
+     <area value="37182286" mc_name="CN_HN" title="Hunan"></area>
+     <area value="21068019" mc_name="CN_JX" title="JiangXi"></area>
+     <area value="42800849" mc_name="CN_GD" title="Guangdong"></area>
+     <area value="20845017" mc_name="CN_GX" title="Guangxi"></area>
+     <area value="67956490" mc_name="CN_SC" title="Sichuan"></area>
+     <area value="17140521" mc_name="CN_GZ" title="Guizhou"></area>
+     <area value="20509525" mc_name="CN_YN" title="Yunnan"></area>
+     <area value="1251225" mc_name="CN_XZ" title="Tibet"></area>
+     <area value="0" mc_name="HK" title="Hongkong"></area>
+     <area value="0" mc_name="MO" title="Macau"></area>
+     <area value="34770059" mc_name="CN_HA" title="Hainan"></area>
+     <area value="20766915" mc_name="CN_NX" title="Ningxia"></area>
+     <area value="67956490" mc_name="CN_CQ" title="Chongqing"></area>
+   </areas>
+      <labels>
+        <label x="40%" y="5%" text_size="15" color="#666666" remain="false">
+          <text>POPULATION BY PROVINCE: 1964</text>
+	</label>
+      </labels>
+  </map>
+</data_set>
+<data_set date="1982">
+  <map map_file="maps/china.swf" zoom="86.6071%" zoom_x="7.74%" zoom_y="10.62%">
+    <areas>
+     <area value="9230687" mc_name="CN_BJ" title="Beijing"></area>
+     <area value="7764141" mc_name="CN_TJ" title="Tianjin"></area>
+     <area value="11859748" mc_name="CN_SH" title="Shanghai"></area>
+     <area value="53005876" mc_name="CN_HB" title="Hebei"></area>
+     <area value="25291389" mc_name="CN_SX" title="Shanxi"></area>
+     <area value="19274279" mc_name="CN_NM" title="Nei Mongolia"></area>
+     <area value="35721693" mc_name="CN_LN" title="Liaoning"></area>
+     <area value="22560053" mc_name="CN_JL" title="Jilin"></area>
+     <area value="32665546" mc_name="CN_HL" title="Heilongjiang"></area>
+     <area value="28904423" mc_name="CN_SA" title="Shaanxi"></area>
+     <area value="19569261" mc_name="CN_GS" title="Gansu"></area>
+     <area value="3895706" mc_name="CN_QH" title="Qinghai"></area>
+     <area value="13081681" mc_name="CN_XJ" title="Xinjiang"></area>
+     <area value="74419054" mc_name="CN_SD" title="Shandong"></area>
+     <area value="60521114" mc_name="CN_JS" title="Jiangsu"></area>
+     <area value="49665724" mc_name="CN_AH" title="Anhui"></area>
+     <area value="38884603" mc_name="CN_ZJ" title="Zhejiang"></area>
+     <area value="25931106" mc_name="CN_FJ" title="Fujian"></area>
+     <area value="18270749" mc_name="TW" title="Taiwan"></area>
+     <area value="74422739" mc_name="CN_HE" title="Henan"></area>
+     <area value="47804150" mc_name="CN_HU" title="Hubei"></area>
+     <area value="54008851" mc_name="CN_HN" title="Hunan"></area>
+     <area value="33184827" mc_name="CN_JX" title="JiangXi"></area>
+     <area value="59299220" mc_name="CN_GD" title="Guangdong"></area>
+     <area value="36420960" mc_name="CN_GX" title="Guangxi"></area>
+     <area value="99713310" mc_name="CN_SC" title="Sichuan"></area>
+     <area value="28552997" mc_name="CN_GZ" title="Guizhou"></area>
+     <area value="32553817" mc_name="CN_YN" title="Yunnan"></area>
+     <area value="1892393" mc_name="CN_XZ" title="Tibet"></area>
+     <area value="5378624" mc_name="HK" title="Hongkong"></area>
+     <area value="5378624" mc_name="MO" title="Macau"></area>
+     <area value="34770059" mc_name="CN_HA" title="Hainan"></area>
+     <area value="28904423" mc_name="CN_NX" title="Ningxia"></area>
+     <area value="99713310" mc_name="CN_CQ" title="Chongqing"></area>
+   </areas>
+      <labels>
+        <label x="40%" y="5%" text_size="15" color="#666666" remain="false">
+          <text>POPULATION BY PROVINCE: 1982</text>
+	</label>
+      </labels>
+  </map>
+</data_set>
+<data_set date="1990">
+  <map map_file="maps/china.swf" zoom="86.6071%" zoom_x="7.74%" zoom_y="10.62%">
+    <areas>
+     <area value="10819407" mc_name="CN_BJ" title="Beijing"></area>
+     <area value="8785402" mc_name="CN_TJ" title="Tianjin"></area>
+     <area value="13341896" mc_name="CN_SH" title="Shanghai"></area>
+     <area value="61082439" mc_name="CN_HB" title="Hebei"></area>
+     <area value="28759014" mc_name="CN_SX" title="Shanxi"></area>
+     <area value="21456798" mc_name="CN_NM" title="Nei Mongolia"></area>
+     <area value="39459697" mc_name="CN_LN" title="Liaoning"></area>
+     <area value="24658721" mc_name="CN_JL" title="Jilin"></area>
+     <area value="35214873" mc_name="CN_HL" title="Heilongjiang"></area>
+     <area value="32882403" mc_name="CN_SA" title="Shaanxi"></area>
+     <area value="22371141" mc_name="CN_GS" title="Gansu"></area>
+     <area value="4456946" mc_name="CN_QH" title="Qinghai"></area>
+     <area value="15155778" mc_name="CN_XJ" title="Xinjiang"></area>
+     <area value="84392827" mc_name="CN_SD" title="Shandong"></area>
+     <area value="67056519" mc_name="CN_JS" title="Jiangsu"></area>
+     <area value="56180813" mc_name="CN_AH" title="Anhui"></area>
+     <area value="41445930" mc_name="CN_ZJ" title="Zhejiang"></area>
+     <area value="30097274" mc_name="CN_FJ" title="Fujian"></area>
+     <area value="20155830" mc_name="TW" title="Taiwan"></area>
+     <area value="85509535" mc_name="CN_HE" title="Henan"></area>
+     <area value="53969210" mc_name="CN_HU" title="Hubei"></area>
+     <area value="60659754" mc_name="CN_HN" title="Hunan"></area>
+     <area value="37710281" mc_name="CN_JX" title="JiangXi"></area>
+     <area value="62829236" mc_name="CN_GD" title="Guangdong"></area>
+     <area value="42245765" mc_name="CN_GX" title="Guangxi"></area>
+     <area value="107218173" mc_name="CN_SC" title="Sichuan"></area>
+     <area value="32391066" mc_name="CN_GZ" title="Guizhou"></area>
+     <area value="36972610" mc_name="CN_YN" title="Yunnan"></area>
+     <area value="2196010" mc_name="CN_XZ" title="Tibet"></area>
+     <area value="6130000" mc_name="HK" title="Hongkong"></area>
+     <area value="6130000" mc_name="MO" title="Macau"></area>
+     <area value="6557482" mc_name="CN_HA" title="Hainan"></area>
+     <area value="4655451" mc_name="CN_NX" title="Ningxia"></area>
+     <area value="107218173" mc_name="CN_CQ" title="Chongqing"></area>
+   </areas>
+      <labels>
+        <label x="40%" y="5%" text_size="15" color="#666666" remain="false">
+          <text>POPULATION BY PROVINCE: 1990</text>
+	</label>
+      </labels>
+  </map>
+</data_set>
+<data_set date="2000">
+  <map map_file="maps/china.swf" zoom="86.6071%" zoom_x="7.74%" zoom_y="10.62%">
+    <areas>
+     <area value="13569194" mc_name="CN_BJ" title="Beijing"></area>
+     <area value="9848731" mc_name="CN_TJ" title="Tianjin"></area>
+     <area value="16407734" mc_name="CN_SH" title="Shanghai"></area>
+     <area value="66684419" mc_name="CN_HB" title="Hebei"></area>
+     <area value="32471242" mc_name="CN_SX" title="Shanxi"></area>
+     <area value="23323347" mc_name="CN_NM" title="Nei Mongolia"></area>
+     <area value="41824412" mc_name="CN_LN" title="Liaoning"></area>
+     <area value="26802191" mc_name="CN_JL" title="Jilin"></area>
+     <area value="36237576" mc_name="CN_HL" title="Heilongjiang"></area>
+     <area value="35365072" mc_name="CN_SA" title="Shaanxi"></area>
+     <area value="25124282" mc_name="CN_GS" title="Gansu"></area>
+     <area value="4822963" mc_name="CN_QH" title="Qinghai"></area>
+     <area value="18459511" mc_name="CN_XJ" title="Xinjiang"></area>
+     <area value="89971789" mc_name="CN_SD" title="Shandong"></area>
+     <area value="73043577" mc_name="CN_JS" title="Jiangsu"></area>
+     <area value="58999948" mc_name="CN_AH" title="Anhui"></area>
+     <area value="45930651" mc_name="CN_ZJ" title="Zhejiang"></area>
+     <area value="34097947" mc_name="CN_FJ" title="Fujian"></area>
+     <area value="21999851" mc_name="TW" title="Taiwan"></area>
+     <area value="91236854" mc_name="CN_HE" title="Henan"></area>
+     <area value="59508870" mc_name="CN_HU" title="Hubei"></area>
+     <area value="63274173" mc_name="CN_HN" title="Hunan"></area>
+     <area value="40397598" mc_name="CN_JX" title="JiangXi"></area>
+     <area value="85225007" mc_name="CN_GD" title="Guangdong"></area>
+     <area value="43854538" mc_name="CN_GX" title="Guangxi"></area>
+     <area value="82348296" mc_name="CN_SC" title="Sichuan"></area>
+     <area value="35247695" mc_name="CN_GZ" title="Guizhou"></area>
+     <area value="42360089" mc_name="CN_YN" title="Yunnan"></area>
+     <area value="2616329" mc_name="CN_XZ" title="Tibet"></area>
+     <area value="6866000" mc_name="HK" title="Hongkong"></area>
+     <area value="431500" mc_name="MO" title="Macau"></area>
+     <area value="7559035" mc_name="CN_HA" title="Hainan"></area>
+     <area value="5486393" mc_name="CN_NX" title="Ningxia"></area>
+     <area value="30512763" mc_name="CN_CQ" title="Chongqing"></area>
+   </areas>
+      <labels>
+        <label x="40%" y="5%" text_size="15" color="#666666" remain="false">
+          <text>POPULATION BY PROVINCE: 2000</text>
+	</label>
+      </labels>
+  </map>
+</data_set>
+<data_set date="2011">
+  <map map_file="maps/china.swf" zoom="86.6071%" zoom_x="7.74%" zoom_y="10.62%">
+    <areas>
+     <area value="19612368" mc_name="CN_BJ" title="Beijing"></area>
+     <area value="12938224" mc_name="CN_TJ" title="Tianjin"></area>
+     <area value="23019148" mc_name="CN_SH" title="Shanghai"></area>
+     <area value="71854202" mc_name="CN_HB" title="Hebei"></area>
+     <area value="35712111" mc_name="CN_SX" title="Shanxi"></area>
+     <area value="24706321" mc_name="CN_NM" title="Nei Mongolia"></area>
+     <area value="43746323" mc_name="CN_LN" title="Liaoning"></area>
+     <area value="27462297" mc_name="CN_JL" title="Jilin"></area>
+     <area value="38312224" mc_name="CN_HL" title="Heilongjiang"></area>
+     <area value="37327378" mc_name="CN_SA" title="Shaanxi"></area>
+     <area value="25575254" mc_name="CN_GS" title="Gansu"></area>
+     <area value="5626722" mc_name="CN_QH" title="Qinghai"></area>
+     <area value="21813334" mc_name="CN_XJ" title="Xinjiang"></area>
+     <area value="95793065" mc_name="CN_SD" title="Shandong"></area>
+     <area value="78659903" mc_name="CN_JS" title="Jiangsu"></area>
+     <area value="59500510" mc_name="CN_AH" title="Anhui"></area>
+     <area value="54426891" mc_name="CN_ZJ" title="Zhejiang"></area>
+     <area value="36894216" mc_name="CN_FJ" title="Fujian"></area>
+     <area value="23071779" mc_name="TW" title="Taiwan"></area>
+     <area value="94023567" mc_name="CN_HE" title="Henan"></area>
+     <area value="57237740" mc_name="CN_HU" title="Hubei"></area>
+     <area value="65683722" mc_name="CN_HN" title="Hunan"></area>
+     <area value="44567475" mc_name="CN_JX" title="JiangXi"></area>
+     <area value="104303132" mc_name="CN_GD" title="Guangdong"></area>
+     <area value="46026629" mc_name="CN_GX" title="Guangxi"></area>
+     <area value="80418200" mc_name="CN_SC" title="Sichuan"></area>
+     <area value="34746468" mc_name="CN_GZ" title="Guizhou"></area>
+     <area value="45966239" mc_name="CN_YN" title="Yunnan"></area>
+     <area value="3002166" mc_name="CN_XZ" title="Tibet"></area>
+     <area value="7097600" mc_name="HK" title="Hongkong"></area>
+     <area value="552300" mc_name="MO" title="Macau"></area>
+     <area value="8671518" mc_name="CN_HA" title="Hainan"></area>
+     <area value="6301350" mc_name="CN_NX" title="Ningxia"></area>
+     <area value="28846170" mc_name="CN_CQ" title="Chongqing"></area>
+   </areas>
+      <labels>
+        <label x="40%" y="5%" text_size="15" color="#666666" remain="false">
+          <text>POPULATION BY PROVINCE: 2011</text>
+	</label>
+      </labels>
+  </map>
+</data_set>
+
+</timeline>

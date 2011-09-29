@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"> 
+    <title>GulimuVision: Visualization of Issue 1</title> 
+    <script type="text/javascript" src="../../libs/d3.1.8.3/d3.js"></script>
+    <script type="text/javascript" src="../../libs/d3.1.8.3/d3.csv.js"></script>  
+    <script type="text/javascript" src="../../libs/d3.1.8.3/d3.geo.js"></script>
+    <script type="text/javascript" src="../../libs/jquery/jquery.min.js"></script> 
+    <script type="text/javascript" src="../../libs/jquery-ui/jquery-ui.min.js"></script>  
+    <link type="text/css" rel="stylesheet" href="../../libs/d3.1.8.3/button.css"/>
+    <link type="text/css" rel="stylesheet" href="../../libs/jquery-ui/jquery-ui.css"/>
+    <link type="text/css" rel="stylesheet" href="./css/vismon.css"/> 
+    <link type="text/css" rel="stylesheet" href="../../libs/d3.1.8.3/lib/colorbrewer/colorbrewer.css"/>
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-17034168-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head> 
+  <body> 
+    <h3>GulimuVision: Visualization of Issue 1</h3>
+    <div id="back"><h3><a href="http://gulimujyujyu.me/web/toyou/2c3ff76a2474f6f595e17ae473a47556">&gt; Back to <i>Issue 1</i></a></h3></div>
+    <h4>Description</h4>
+    <p>This month, I drew <i>quality of life index of 196 countries</i> from google <a href="http://www.google.com/fusiontables/DataSource?snapid=134959">fusion table</a>.</p>
+    <p>Visualization library is <a href="https://github.com/mbostock/d3">d3</a> by <a href="http://bost.ocks.org/">Mike Bostock</a>. Now it is hosted on github, and free and fullly HTML5 support.</p>
+    <p>Well, perhaps this is only for visualization purpose, as my hometown seems not so bad as it shows :(</p>
+    <h4>Result</h4>
+    <div id="chart">
+      <button id="col" class="first" onclick="transitionCoL()">
+        Cost of Living
+      </button>
+      <button id="lnc" onclick="transitionLnC()">
+        Leisure &amp; Culture
+      </button>
+      <button id="eco" onclick="transitionEco()">
+        Economy
+      </button>
+      <button id="env" onclick="transitionEnv()">
+        Environment
+      </button>
+      <button id="fre" onclick="transitionFre()">
+        Freedom
+      </button>
+      <button id="hea" onclick="transitionHea()">
+        Health
+      </button>
+      <button id="inf" onclick="transitionInf()">
+        Infrastructure
+      </button>
+      <button id="rns" onclick="transitionRnS()">
+        Risk &amp; Safety
+      </button>
+      <button id="cli" onclick="transitionCli()">
+        Climate
+      </button>
+      <button id="fin" class="last" onclick="transitionFin()">
+        Final
+      </button>
+    </div>
+    <div id="down">
+      <div id="indi">Below shows the countries with the higher value than w.r.t Cost of Living: 0</div> 
+      <div id="slider"></div>
+      <div class="clear">Slide this</div>
+      <div id="flag"></div>
+    </div>
+    <script type="text/javascript" src="./js/vismon.js"></script> 
+  </body> 
+</html> 
