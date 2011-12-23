@@ -1,0 +1,69 @@
+svg {
+  background: #eee;
+  width: 960px;
+  height: 500px;
+}
+
+#chart{
+  background: #eee;
+  border:#eef;
+  border-width: 5px;
+  border-style:groove;
+}
+
+#chart button{
+  margin-left:0px;
+  margin-right:-4px;
+}
+
+#back{
+  position:absolute;
+  right: 10px;
+  top: 0px;
+}
+
+#down{
+  background: #eee;
+}
+
+#states path {
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+#slider{
+  width: 300px;
+  float:left;
+}
+#indi{
+  width: 600px;
+  font-size:12px;
+  float:left;
+}
+
+#flag{
+  width: 950px;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.caption {
+  font: 30px Helvetica Neue;
+  font-weight:bold;
+}
+
+.note {
+  font: 10px Helvetica Neue;
+  font-style:italic;
+}
+
+.flag {
+  margin:1px;
+}

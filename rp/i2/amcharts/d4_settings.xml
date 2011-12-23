@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <grid>
+    <x>
+      <alpha>10</alpha>
+    </x>
+    <y>
+      <alpha>10</alpha>
+    </y>
+  </grid>
+  <values>
+    <x>
+      <min>-300</min>
+      <max>300</max>
+      <strict_min_max>1</strict_min_max>
+    </x>
+    <y>
+      <min>-150</min>
+      <max>150</max>
+      <strict_min_max>1</strict_min_max>
+    </y>
+  </values>
+  <zoom>
+    <enabled></enabled>
+  </zoom>
+  <legend>
+    <enabled>false</enabled>
+  </legend>
+  <help>
+    <balloon>
+      <text>Select the area to enlarge</text>
+    </balloon>
+  </help>
+  <bullets>
+    <hover_brightness>20</hover_brightness>
+    <grow_time>2</grow_time>
+    <sequenced_grow>1</sequenced_grow>
+  </bullets>
+  <graphs>
+	<graph gid="0">
+	  <color>B92F2F</color>
+      <title>Live in urban area</title>
+      <alpha>0</alpha>
+      <balloon_text>{title}:{value} million</balloon_text>
+      <bullet>bubble</bullet>
+    </graph>
+	<graph gid="1">
+      <color>B92F2F</color>
+	  <title>Live in rural area</title>
+      <alpha>0</alpha>
+      <balloon_text>{title}:{value} million</balloon_text>
+      <bullet>bubble</bullet>
+    </graph>
+    <graph gid="2">
+      <color>B92F2F</color>
+	  <title>Highest degree: Primary School</title>
+      <alpha>0</alpha>
+      <balloon_text>{title}:{value} million</balloon_text>
+      <bullet>bubble</bullet>
+    </graph>
+	<graph gid="3">
+      <color>B92F2F</color>
+	  <title>Highest degree: Secondary School</title>
+      <alpha>0</alpha>
+      <balloon_text>{title}:{value} million</balloon_text>
+      <bullet>bubble</bullet>
+    </graph>
+	<graph gid="4">
+      <color>B92F2F</color>
+	  <title>Highest degree: High School</title>
+      <alpha>0</alpha>
+      <balloon_text>{title}:{value} million</balloon_text>
+      <bullet>bubble</bullet>
+    </graph>
+	<graph gid="5">
+      <color>B92F2F</color>
+	  <title>Highest degree: University</title>
+      <alpha>0</alpha>
+      <balloon_text>{title}:{value} million</balloon_text>
+      <bullet>bubble</bullet>
+    </graph>
+	<graph gid="6">
+      <color>B92F2F</color>
+	  <title>Illiterate</title>
+      <alpha>0</alpha>
+      <balloon_text>{title}:{value} million</balloon_text>
+      <bullet>bubble</bullet>
+    </graph>
+  </graphs>
+  <labels>
+    <label lid="0">
+      <text><![CDATA[<b>Civilization & Urbanization Status</b>]]></text>
+      <x>10</x>
+      <y>20</y>
+      <align>center</align>
+    </label>
+  </labels>
+</settings>

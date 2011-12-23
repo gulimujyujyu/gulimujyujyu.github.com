@@ -1,0 +1,164 @@
+/* Override some defaults */
+html, body {
+background-color: #eee;
+}
+
+.container > footer p {
+text-align: center; /* center align it with the container */
+}
+
+/* The white background content wrapper */
+.container > .content {
+background-color: #fff;
+padding: 20px;
+margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+}
+
+/* Social media*/
+#site-twitter {
+  background:url("../images/twitter_icon.png") left top no-repeat;
+}
+
+a#site-twitter:hover {
+  color: blue;
+}
+
+#site-google-plus {
+  background:url("../images/g_plus_icon.png") left top no-repeat;
+}
+
+a#site-google-plus:hover {
+  color: red;
+}
+
+#site-github {
+  background:url("../images/github_icon.png") left top no-repeat;
+}
+
+a#site-github:hover {
+  color: #777;
+}
+
+#site-blogger {
+  background:url("../images/blogger_icon.png") left top no-repeat;
+}
+
+a#site-blogger:hover {
+  color: orange;
+}
+
+a.site-social-button {
+  color:#000;
+  text-decoration: none;
+  padding: 4px 0 4px 24px;
+  display: inline-block;
+}
+
+/* Page header tweaks */
+.page-header {
+  background-color:#f5f5f5;
+  padding: 10px;
+  margin: -20px -20px 20px;
+  display: block;
+}
+
+.site-logo {
+  float: left;
+}
+
+.site-logo > a > img {
+  margin-left: -40px;
+  border: solid 5px #FFF;
+}
+
+.site-title h1 {
+  line-height: 64px;
+  font-size:48px;
+  margin:10px 0px 0px -10px;
+}
+
+/*sections*/
+/* Styles you shouldn't keep as they are for displaying this base example only */
+.site-entry{
+min-height: 250px;
+}
+
+#gv {
+  position: relative;
+  border-left: solid 5px #E90B00;
+  /*background-color:#FF9E99;*/
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+#rp {
+  position: relative;
+  border-left: solid 5px #015094;
+  /*background-color:#99CFFF;*/
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+#cs {
+  position: relative;
+  border-left: solid 5px #FFC700;
+  margin-left: 15px;
+  /*background-color:#FFE999;*/
+}
+
+#pr {
+  position: relative;
+  border-left: solid 5px #C7C7C7;
+  margin-left: 15px;
+  /*background-color:#EEE;*/
+}
+
+.entry-mask-title {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  display: none;
+  padding: 20px;
+}
+
+.entry-mask-title > h2{
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.entry-mask-link{
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  display: none;
+  padding: 20px;
+}
+
+.entry-mask-link > a {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  color: #333;
+  text-decoration:none;
+}
+
+.entry-mask-link > a:visited {
+  font-size: 16px;
+  font-style: italic;
+  color: #333;
+  text-decoration:none;
+}
+
+.entry-mask-content{
+  position: absolute;
+  left: 0px;
+  top: 56px;
+  display: none;
+  padding: 10px 30px 10px 30px;
+}
+
+.entry-mask-content > p {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+}

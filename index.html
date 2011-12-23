@@ -1,112 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Gulimujyujyu.me || C'est la vie.</title>
-		<meta charset="UTF-8" />
-        <meta name="description" content="Image Wall with jQuery and CSS3" />
-        <meta name="keywords" content="jquery, css3, images, wall, thumbnails, slide, animate"/>
-		<meta name="author" content="Codrops" />
-		<link href='http://fonts.googleapis.com/css?family=Dancing+Script:bold' rel='stylesheet' type='text/css'>		<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css' />
-		<link rel="stylesheet" type="text/css" media="all" href="./css/960/text.css">
-    <link rel="stylesheet" type="text/css" media="all" href="./css/960/960.css">
-    <link rel="stylesheet" type="text/css" media="all" href="./css/960/reset.css">
-    <link rel="stylesheet" type="text/css" media="all" href="./css/style.css" >
-    <link rel="stylesheet" type="text/css" media="all" href="./css/main.css">
-	<script type="text/javascript">
+  <head>
+    <meta charset="utf-8">
+    <title>Gulimujyujyu.me || C'est la vie.</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-17034168-1']);
-	  _gaq.push(['_trackPageview']);
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-	  (function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    
 
-	</script>
-    </head>
-    <body>
-    <div id="header">
-      <ul id="logo">
-        <li>
-          <a href="#" class="link"></a>
-        </li>
-      </ul>
-      <ul id="nav" class="menuen">
-        <li>
-          <a id="na_web" href="#web" class="link"><div style="display:none">web</div></a>
-        </li>
-        <li>
-          <a id="na_research" href="#research" class="link"><div style="display:none">res</div></a>
-        </li>
-        <li>
-          <a id="na_wiki" href="#wiki" class="link"><div style="display:none">wik</div></a>
-        </li>
-        <li>
-          <a id="na_blog" href="#blog" class="link"><div style="display:none">blo</div></a>
-        </li>
-      </ul>
-    </div>
-    <!-- end header -->
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    
+    <!-- javascripts -->
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>   
+    <script type="text/javascript" src="js/jquery.color.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-twipsy.js"></script>
+    <script type="text/javascript" src="js/bootstrap-popover.js"></script> 
+    <script type="text/javascript" src="js/index.js"></script>
+  </head>
 
+  <body>
+    <div class="container">
 
-		<div id="content">
-			<div class="iw_wrapper">
-				<ul class="iw_thumbs" id="iw_thumbs">
-					<li class="web"><img src="images/web.png" alt="Thumb1"/><div>
-						<h2>Gulimujyujyu's Web</h2>
-						<p><a href="http://gulimujyujyu.me/web">Click</a> to visit my web develop page!
-</p></div></li>
-					<li class="web"><img src="images/photo.png" alt="Thumb2"/><div>
-						<h2>Gulimujyujyu's Collections</h2>
-						<p><a href="http://collections.gulimujyujyu.me">Click</a> to check out my photos : )
-</p></div></li>
-					<li class="web"><img src="images/visualization.png" alt="Thumb3"/><div>
-						<h2>Gulimujyujyu's Visualization Practices</h2>
-						<p><a href="http://gulimujyujyu.me/web/gulimuvision/">Click</a> to see some demos about visualization on the web.
-</p></div></li>
-					<li class="web"><img src="images/gulimuvision.png" alt="Thumb4"/><div>
-						<h2>GulimuVision: my online journal.</h2>
-						<p><a href="http://gulimujyujyu.me/web/gulimuvision/">Click</a> to see my ppt-like journal on visulization.
-</p></div></li>
-          			<li class="web"><img src="images/1.jpg" alt="Thumb5"/><div>
-          				<h2>About Gulimujyujyu</h2>
-          				<p><a href="http://gulimujyujyu.me/web/thisguy.html">Click</a> to see how gulimujyujyu comes out.
-</p></div></li>
-					<li class="res"><img src="images/research.png" alt="Thumb6"/><div>
-						<h2>Research for Real Life</h2>
-						<p><a href="http://gulimujyujyu.me/research">Click</a> to visit my research page.
-</p></div></li>
-					<li class="wik"><img src="images/wiki.png" alt="Thumb7"/><div>
-						<h2>Gulimujyujyu's Wiki</h2>
-						<p><a href="http://gulimujyujyu.me/wiki">Click</a> to visit my wiki. It is about the web and my research.
-</p></div></li>
-					<li class="blo"><img src="images/blog.png" alt="Thumb8"/><div>
-						<h2>Gulimujyujyu's Blog</h2>
-						<p><a href="http://blog.gulimujyujyu.me">Click</a> to visit my blog. I love to make graphics.
-</p></div></li>
-          			<li class="res"><img src="images/computervision.png" alt="Thumb9"/><div>
-          				<h2>About my research</h2>
-          				<p><a href="http://gulimujyujyu.me/research">My research area</a> is computer vision.
-</p></div></li>
-		  </ul>
-			</div>
-			<div id="iw_ribbon" class="iw_ribbon">
-				<span class="iw_close"></span>
-				<span class="iw_zoom">Click thumb to close</span>
-			</div>
-		</div>
-		<div id="footer">
-		  <div id="fo_claim">Implement from <a href="http://tympanus.net/codrops/2011/05/25/image-wall/">Codrops tutorial</a>.</div>
-			<div id="fo_copyrights">
-			 gulimujyujyu.me
+      <div class="content site-box-shadow site-down-radius">
+        <div class="page-header row site-box-shadow">
+          <div class="site-logo span1">
+            <a href="http://gulimujyujyu.me">
+              <img class="site-box-shadow" src="images/gulimujyujyu-logo-64x64.png" alt="Logo">
+            </a>
+          </div>
+          <div class="site-title span11">
+            <h1 class="site-text-shadow">Gulimujyujyu <small>C'est la vie.</small> </h1>
+          </div>
+          <div class="site-icon span4">
+            <div class="row">
+              <div class="span2">
+                <a id="site-twitter" href="http://twitter.com/gulimujyujyu" class="site-social-button">Twitter</a>
+              </div>
+              <div class="span2">
+                <a id="site-github" href="http://github.com/gulimujyujyu" class="site-social-button">Github</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="span2">
+                <a id="site-google-plus" href="http://plus.google.com/108485568192554589300" class="site-social-button">Google+</a>
+              </div>
+              <div class="span2">
+                <a id="site-blogger" href="http://blog.gulimujyujyu.me/" class="site-social-button">Blogger</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="span4">
+                <button id="site-fun" class="btn danger disabled" title="当当当当" data-content="这家伙很懒，什么也没有留下。">如果你懂中文，请不要点我。</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div id="gv" class="site-entry site-text-shadow span8">
+            <img src="images/gv.png" alt="GulimuVision"/>
+            <div class="entry-mask-title">
+                <h2>GulimuVision</h2>
+            </div>
+            <div class="entry-mask-content">
+                <p>This a collection of what I have learnt from the web design and visualization communities.</p>
+                <p>I started this in late March of 2011. Every quarter, I put an issue on web, including notes about the theory, a brief introduction to a library and a demo.</p>
+            </div>
+            <div class="entry-mask-link">
+                <a class="btn primary" href="#">Check it out~</a>
+            </div>
+          </div>
+          <div id="rp" class="site-entry site-text-shadow span8">
+            <img src="images/rp.png" alt="GulimuVision"/>
+            <div class="entry-mask-title">
+                <h2>Reports</h2>
+            </div>
+            <div class="entry-mask-content">
+                <p>I am lucky in this year as I have seen many excellent reports from a growing community, <a href="http://en.wikipedia.org/wiki/Data_driven_journalism"><i>data journalism</i></a>.</p>
+                <p>I believe that interesting story can be mined from enormous data, and conveyed in a concise and illustrative way.</p>
+            </div>
+            <div class="entry-mask-link">
+                <a class="btn primary" href="#">Here we go~</a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div id="cs" class="site-entry site-text-shadow span8">
+            <img src="images/cs.png" alt="GulimuVision"/>
+            <div class="entry-mask-title">
+                <h2>Cheat Sheet</h2>
+            </div>
+            <div class="entry-mask-content">
+                <p>Believe or not, I am overwhelmed by endless of documents.</p>
+                <p>Then come cheat sheets. A good tool for me to get access to what I wanna look up for.</p>
+                <p>Hope it will also help you.</p>
+            </div>
+            <div class="entry-mask-link">
+                <a class="btn primary" href="#">Learn more.</a>
+            </div>
+          </div>
+          <div id="pr" class="site-entry site-text-shadow span8">
+            <img src="images/pr.png" alt="GulimuVision"/>
+            <div class="entry-mask-title">
+                <h2>Projects</h2>
+            </div>
+            <div class="entry-mask-content">
+                <p>This part is fabulous, but you have to wait.</p>
+            </div>
+            <div class="entry-mask-link">
+                <a class="btn primary disabled" href="#">Sorry )-:</a>
+            </div>
+          </div>
+        </div>
       </div>
-		</div>
-		<script type="text/javascript" src="./css/jquery-1.4.2.min.js">
-    </script>
-    <script type="text/javascript" src="js/jquery.masonry.min.js"></script>
-		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="./js/main.js"></script>
-    </body>
+
+      <footer>
+        <div class="row">
+          <div class="span2">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/80x15.png" /></a>
+          </div>
+          <div class="span14">
+            <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Gulimujyujyu.me</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://xiaolongzhu.org" property="cc:attributionName" rel="cc:attributionURL">Xiaolong ZHU</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License</a>.
+          </div>
+        </div>
+      </footer>
+
+    </div> <!-- /container -->
+
+  </body>
 </html>

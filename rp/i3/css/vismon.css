@@ -1,0 +1,74 @@
+﻿#chart{
+	width:1000px;
+  background: #eee;
+  border:#eef;
+  border-width: 5px;
+  border-style:groove;
+}
+
+#back{
+	position:absolute;
+  right: 10px;
+  top: 0px;}
+
+#timeline{
+	margin-left: 3px;
+	margin-right: 3px;
+	height: 320px;
+	width: 480px;
+}
+
+#densemap{
+	margin-left: 3px;
+	margin-right: 3px;
+	height: 320px;
+	width: 480px;
+}
+
+#lineplot{
+	margin-left: 3px;
+	margin-right: 3px;
+	height: 320px;
+	width: 480px;
+}
+
+#bubbleplot{
+	margin-left: 3px;
+	margin-right: 3px;
+	height: 320px;
+	width: 480px;
+}
+
+.wrapper {
+	float:left;
+	width: 500px;
+	margin-bottom: 10px;
+	border-bottom: 1px;
+}
+
+#flag{
+  width: 950px;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.caption {
+  font: 30px Helvetica Neue;
+  font-weight:bold;
+}
+
+.note {
+  font: 10px Helvetica Neue;
+  font-style:italic;
+}
+
+.flag {
+  margin:1px;
+}
