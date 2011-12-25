@@ -29,21 +29,21 @@ function onLoad() {
 
 */
 
-    var date = "Fri Jul 06 2006 13:00:00 GMT-0600"
+    var date = "Fri Jul 06 1700 13:00:00 GMT-0600"
     var bandInfos = [
 	     Timeline.createBandInfo({
 		     eventSource: eventSource,
 	         width:          "70%", 
 	         date: date, 
-	         intervalUnit:   Timeline.DateTime.MONTH, 
-	         intervalPixels: 100
+	         intervalUnit:   Timeline.DateTime.DECADE, 
+	         intervalPixels: 50
 	     }),
 	     Timeline.createBandInfo({
 		     eventSource: eventSource,
 	         width:          "30%", 
 	         date: date, 
-	         intervalUnit:   Timeline.DateTime.YEAR, 
-	         intervalPixels: 200
+	         intervalUnit:   Timeline.DateTime.CENTURY, 
+	         intervalPixels: 100
 	     })
 	];
     bandInfos[1].syncWith = 0;

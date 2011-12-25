@@ -15,29 +15,22 @@
         Intelligence people".
         </event>
 	-->
-	<event 
-	        start="May 28 2006 09:00:00 GMT"
-	        end="Jun 15 2006 09:00:00 GMT"
-	        isDuration="true"
-	        title="Writing Timeline documentation"
-	        image="http://simile.mit.edu/images/csail-logo.gif"
-	        >
-	        A few days to write some documentation for <a href="http://simile.mit.edu/timeline/">Timeline</a>.
-	        </event>
-
-	<event 
-	    start="Jun 16 2006 00:00:00 GMT"
-        end="Jun 26 2006 00:00:00 GMT"
-        title="Friend's wedding"
-        >
-        I'm not sure precisely when my friend's wedding is.
-        </event>
-
-    <event 
-        start="Aug 02 2006 00:00:00 GMT"
-        title="Trip to Beijing"
-        link="http://travel.yahoo.com/"
-        >
-        Woohoo!
-        </event>
+	<event start="Apr 15 1452 09:00:00 GMT" end="May 2 1519 09:00:00 GMT" isDuration="true" title="Discovering Complementary Colors">
+    Leonardo da Vinci noted that certain colors intensify each other.
+  </event>
+	<event start="Dec 25 1642 09:00:00 GMT" end="Mar 12 1727 09:00:00 GMT" isDuration="true" title="Advent of Color Wheel">
+    Isaac Newton the created color wheel, he noticed that mixing two colors from opposite positions produced a neutral or anonymous color.
+  </event>
+	<event start="Aug 28 1749 09:00:00 GMT" end="Mar 22 1832 09:00:00 GMT" isDuration="true" title="Warm and Cool Colors">
+    Johann Wholfgang von Goethe divided all colors into two group, warm and cool colors.
+  </event>
+  <event start="Jan 1 1876 09:00:00 GMT" title="Theory of Color">
+    Louis Prang helped polularize the theory of red, yellow and blue primary colors, with his book Theory of Color.
+  </event>
+  <event start="Jan 1 1916 09:00:00 GMT" title="The Color Primer">
+    Wilhelm Ostwald developed a color system related to psychological harmony and order in the book Dir Farbenfibel (The Color Primer).
+  </event>
+  <event start="Jan 1 1919 09:00:00 GMT" end="Jan 1 1933 09:00:00 GMT" isDuration="true" title="Bauhaus Era">
+    Johannes Itten developed color chords and summarized colors in his book, Itten: The Element of Color.
+  </event>
 </data>
