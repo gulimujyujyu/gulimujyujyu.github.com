@@ -1310,13 +1310,12 @@ table .headerSortUp.purple, table .headerSortDown.purple {
   overflow: visible;
 }
 .topbar a {
-  color: #bfbfbf;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  color: #333;
 }
 .topbar h3 a:hover, .topbar .brand:hover, .topbar ul .active > a {
   background-color: #333;
-  background-color: rgba(255, 255, 255, 0.05);
-  color: #ffffff;
+  background-color: rgba(51, 51, 51, 0.05);
+  color: #777;
   text-decoration: none;
 }
 .topbar h3 {
@@ -1327,9 +1326,9 @@ table .headerSortUp.purple, table .headerSortDown.purple {
   display: block;
   padding: 8px 20px 12px;
   margin-left: -20px;
-  color: #ffffff;
+  color: #333;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: bold;
   line-height: 1;
 }
 .topbar p {
@@ -1338,7 +1337,7 @@ table .headerSortUp.purple, table .headerSortDown.purple {
 }
 .topbar p a:hover {
   background-color: transparent;
-  color: #ffffff;
+  color: #777;
 }
 .topbar form {
   float: left;
@@ -1398,20 +1397,17 @@ table .headerSortUp.purple, table .headerSortDown.purple {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
 }
 .topbar-inner, .topbar .fill {
-  background-color: #222;
-  background-color: #222222;
+  background-color: whiteSmoke;
+  background-color: #F5F5F5;
   background-repeat: repeat-x;
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#333333), to(#222222));
-  background-image: -moz-linear-gradient(top, #333333, #222222);
-  background-image: -ms-linear-gradient(top, #333333, #222222);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #222222));
-  background-image: -webkit-linear-gradient(top, #333333, #222222);
-  background-image: -o-linear-gradient(top, #333333, #222222);
-  background-image: linear-gradient(top, #333333, #222222);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F5F5F5));
+  background-image: -moz-linear-gradient(top, #FFFFFF, #F5F5F5);
+  background-image: -ms-linear-gradient(top, #FFFFFF, #F5F5F5);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F5F5F5), color-stop(100%, #F5F5F5));
+  background-image: -webkit-linear-gradient(top, #FFFFFF, #F5F5F5);
+  background-image: -o-linear-gradient(top, #FFFFFF, #F5F5F5);
+  background-image: linear-gradient(top, #FFFFFF, #F5F5F5);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#F5F5F5', GradientType=0);
 }
 .topbar div > ul, .nav {
   display: block;
@@ -1432,12 +1428,12 @@ table .headerSortUp.purple, table .headerSortDown.purple {
   text-decoration: none;
 }
 .topbar div > ul a:hover, .nav a:hover {
-  color: #ffffff;
+  color: #aaa;
   text-decoration: none;
 }
 .topbar div > ul .active > a, .nav .active > a {
-  background-color: #222;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #c7c7c7;
+  background-color: rgba(199, 199, 199, 0.5);
 }
 .topbar div > ul.secondary-nav, .nav.secondary-nav {
   float: right;
@@ -1767,12 +1763,9 @@ a.menu:after, .dropdown-toggle:after {
   color: #404040;
 }
 .hero-unit {
-  background-color: #f5f5f5;
-  margin-bottom: 30px;
-  padding: 60px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  background-color: #FFF;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 .hero-unit h1 {
   margin-bottom: 0;

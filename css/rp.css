@@ -24,14 +24,17 @@ text-align: center; /* center align it with the container */
 
 /* The white background content wrapper */
 .container > .content {
-background-color: #fff;
-padding: 20px;
+padding: 0 20px;
 margin: 20px -20px 20px -20px; /* negative indent the amount of the padding to maintain the grid system */
 }
 
 /* a post*/
 .one-post {
-  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.site-post {
+  background-color: #fff;
 }
 
 .site-post > p,

@@ -24,12 +24,15 @@ text-align: center; /* center align it with the container */
 
 /* The white background content wrapper */
 .container > .content {
-background-color: #fff;
-padding: 20px;
-margin: 40px -20px 20px -20px; /* negative indent the amount of the padding to maintain the grid system */
+padding: 0 20px;
+margin: 20px -20px 20px -20px; /* negative indent the amount of the padding to maintain the grid system */
 }
 
 /* a post*/
+.site-post {
+  background-color: #fff;
+}
+
 .site-post > p,
 .site-post > img,
 .site-post > h2{
