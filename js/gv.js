@@ -12,7 +12,7 @@ $(document).ready(function() {
   });
   $("a.site-link-button").click(function(){
     var ele_id = $(this).attr("href");
-    console.log(ele_id);
+    //console.log(ele_id);
     var ele_type = $(ele_id).attr("color-type");
     $(".site-post").removeClass("site-on-chosen-col1");
     $(".site-post").removeClass("site-on-chosen-col2");

@@ -9,13 +9,13 @@ $(document).ready(function() {
   $(".site-entry").hover(
     function(){
       //hover function
-      console.log("invoke");
+      ////console.log("invoke");
 	    $(this).children(".entry-mask-title").fadeIn("fast");
 	    $(this).children(".entry-mask-content").fadeIn("fast");
 	    $(this).children(".entry-mask-link").fadeIn("fast");
 	    var tmp_id = $(this).attr("id");
-	    console.log(tmp_id);
-	    console.log(site_entry_color[tmp_id]);
+	    ////console.log(tmp_id);
+	    //console.log(site_entry_color[tmp_id]);
 	    $(this).children("img").fadeTo("fast", 0);
 	    $(this).stop().animate({backgroundColor:site_entry_color[tmp_id]},"fast");
 	  }, 
