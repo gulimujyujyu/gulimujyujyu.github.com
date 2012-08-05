@@ -13,6 +13,13 @@ Color System:
   - tinted: #ffe999
 */
 
+/* body */
+body {
+	font-family: rockwell, Courier, Georgia, serif;
+	background-color: #F5F5F5;
+}
+}
+
 /* top-bar*/
 .brand > .site-mini-logo{
   border:solid 2px #FFF;
