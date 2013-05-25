@@ -1,0 +1,13 @@
+.input-prepend input {
+    padding: 4px 6px;
+    height: auto;
+}
+
+#central_map_canvas {
+    height: 360px;
+}
+
+#central_map_widget {
+    padding: 8px;
+    margin-top: 20px;
+}
